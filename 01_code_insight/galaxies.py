@@ -2,9 +2,11 @@
 
 Code insight with Scientific Libraries
 
-Smart code completion and code editing
+Smart code completion and code editing:
+Errors highlighting (Alt + Enter)
+Show parameters: Cmd + P (Ctrl + P)
+Type Info: Ctrl + Shift + P
 Quick docs for np.zeros() (F1)
-Show parameters Cmd P
 
 """
 
