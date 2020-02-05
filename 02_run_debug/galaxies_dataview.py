@@ -7,8 +7,10 @@ Run Configurations (Automatically created with right-click)
  - DataViewer in Debugger
 
 """
+from random import randint
 
 import numpy as np
+import pandas as pd
 from sklearn.tree import DecisionTreeRegressor
 
 
@@ -32,10 +34,22 @@ def train_model(feat, targs):
     return predictions
 
 
+def generate_df():
+    size = 50
+    max_val = 100
+    generated_df = pd.DataFrame({'row': [randint(0, max_val) for _ in range(size)],
+                                 'A': [randint(0, max_val) for _ in range(size)],
+                                 'B': [randint(0, max_val) for _ in range(size)],
+                                 'C': [randint(0, max_val) for _ in range(size)],
+                                 'D': [randint(0, max_val) for _ in range(size)]})
+    return generated_df
+
+
 loaded_data = np.load('../data/sdss_galaxy_colors.npy')
 features, targets = get_features_targets(loaded_data)
+random_df = generate_df()
 
-predicts = train_model(features, targets)
+predicts = train_model(features, targets)  # breakpoint
 
 # print out the first 4 predicted redshifts
 print(predicts[:4])
