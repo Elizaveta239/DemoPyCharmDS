@@ -7,7 +7,9 @@ A demo project for working on Data Science tasks inside PyCharm IDE
 
 ### Start
 
-* Configure Python Interpreter
+https://www.jetbrains.com/help/pycharm/configuring-python-interpreter.html
+
+* Configure Python Interpreter (Virtualenv Environment)
 * Install libraries from `requierements.txt`
 * Indexing
 
@@ -20,6 +22,8 @@ A demo project for working on Data Science tasks inside PyCharm IDE
 
 `s01_code_insight/galaxies.py`
 
+https://www.jetbrains.com/help/pycharm/working-with-source-code.html
+
 * Errors highlighting
 * Code insight: code completion, type inferring, libraries information
 * Works for Data Science libraries
@@ -28,6 +32,8 @@ A demo project for working on Data Science tasks inside PyCharm IDE
 ### Code Execution
 
 `s02_run_debug/planets.py`
+
+https://www.jetbrains.com/help/pycharm/debugging-code.html
 
 * Right click -> Run 
 * Run configurations
@@ -53,6 +59,8 @@ Right click -> Run File in Python Console
 
 `s03_sci_mode/plotting.py`
 
+https://www.jetbrains.com/help/pycharm/matplotlib-support.html
+
 Enable Scientific Mode: Find Action (`Ctrl + Shift + A`), type: Scientific Mode
 
 * Editor / Interactive Console / Documentation / SciView
@@ -63,6 +71,8 @@ Enable Scientific Mode: Find Action (`Ctrl + Shift + A`), type: Scientific Mode
 ### Jupyter Notebooks
 
 `s04_notebooks/notebook_demo.ipynb`
+
+https://www.jetbrains.com/help/pycharm/jupyter-notebook-support.html
 
 * PyCharm smart code editing inside Jupyter Notebook
 * Jupyter execution features inside PyCharm
