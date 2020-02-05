@@ -81,3 +81,10 @@ https://www.jetbrains.com/help/pycharm/jupyter-notebook-support.html
 * Data Viewer for Jupyter variables
 * Debug cells
 
+### Support for R language
+
+`s05_r_samples`
+
+* Install "R Language for IntelliJ" plugin
+* Smart code editing and execution
+

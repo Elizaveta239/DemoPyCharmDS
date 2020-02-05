@@ -1,0 +1,18 @@
+---
+title: "My sample"
+author: jetbrains
+date: 16/10/2019
+output: rmarkdown::html_vignette
+---
+# Car cylinder distribution
+
+```{r}
+mycars <- within(mtcars, { cyl <- ordered(cyl) })
+```
+```{r}
+cyls <- table(mycars$cyl)
+barplot(cyls, main = "Car cylinder distribution", col = "#d4724e")
+```
+
+
+
